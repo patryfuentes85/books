@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Books Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/media/2108.w023.n001.894B.p1.894.jpg" alt="booksbanner">
+        <h1 id="title">"..A Book is a gift you can open again and again.."</h1>
+        <h3>Magic Books will take you far..</h3>
+
+    </header>
+
+    <main>
+
+        <!-- Launch section: this is what the page loads when you access -->
+        <section class="index-sections" id="index-launch-page-section">
+           
+
+            <button type="button" class="index-buttons" id="sign-up-btn">Sign Up</button>
+            <button type="button" class="index-buttons" id="log-in-btn">Log In</button>
+
+            <button type="button" class="index-buttons" id="sign-up-google-btn">Google</button>
+            
+        </section>
+
+        <!-- Sign up formulary -->
+        <section class="index-sections off" id="index-sign-up-page-section">
+            <button type='button' class="goback-btn"><img src="./assets/media/live arrow.png"></button>
+            <form action="" id="sign-up-form">
+
+                <label for="signUpName">Name:</label>
+                <input type="text" name="signUpName" id="signUpName">
+
+                <label for="signUpEmail">E-mail:</label>
+                <input type="text" name="signUpEmail" id="signUpEmail">
+
+                <label for="signUpPassword">Password:</label>
+                <input type="password" name="signUpPassword" id="signUpPassword">
+
+                <label for="signUpPassword2">Repeat password:</label>
+                <input type="password" name="signUpPassword2" id="signUpPassword2">
+
+                <input type="submit" class="index-buttons" id="sign-up-send-btn" value="Send">
+
+            </form>
+            
+        </section>
+
+        <!-- Log in formulary -->
+        <section class="index-sections off" id="index-log-in-page-section">
+        <button type='button' class="goback-btn"><img src="./assets/media/live arrow.png"></button>
+
+            <form action="" id="log-in-form">
+
+                <label for="logInEmail">E-mail:</label>
+                <input type="text" name="logInEmail" id="logInEmail">
+
+                <label for="logInPassword">Password:</label>
+                <input type="password" name="logInPassword" id="logInPassword">
+
+                <input type="submit" class="index-buttons" id="log-in-send-btn" value="Send">
+
+            </form>
+
+        <!-- <button type='button' class="goback-btn">Go Back</button> -->
+
+        </section>
+
+        <!-- Welcome page after user signs up or logs in -->
+        <section class="index-sections off" id="index-welcome-page-section">
+            <button class="index-buttons" id="log-out-btn">Log Out ...</button>
+            <button class="index-buttons" id="book-lists-btn"><a href="./books.html" style="
+                text-decoration: none; color: white;">Book Lists</a></button>
+
+        </section>
+
+
+    </main>
+
+   <!--  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
